@@ -8,16 +8,16 @@ class Calculator{
         $this->y=$b;
     }
     public function sum(){
-        return $this->x+$this->y;
+        return $this->x+$this->y.'<br>';
     }
     public function sub(){
-        return $this->y-$this->x;
+        return $this->y-$this->x.'<br>';
     }
     public function mul(){
-        return $this->x*$this->y;
+        return $this->x*$this->y.'<br>';
     }
     public function div(){
-        return $this->y/$this->x;
+        return $this->y/$this->x.'<br>';
     }
 
 }
