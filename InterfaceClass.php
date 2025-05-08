@@ -7,7 +7,7 @@ interface Vehicle{
 }
 
 class Car implements Vehicle{
-    //must implement all funcitons form interface class
+    //must implement all funcitons for
     public function fuelAmount($f){
         echo "Total fuel amount: ".$f.'<br>';
     }
